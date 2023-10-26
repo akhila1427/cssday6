@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  div{background-color:red;
+  height: 60px;
+  width:60px;
+  border-radius: 35px;
+  text-align: center;
+animation-duration: 5s;
+animation-timing-function: ease-in-out;
+position: relative;
+display: inline-block;
+border: 5px solid black;
+animation-fill-mode:both;
+animation-direction: alternate;
+animation: mymove 5s infinite;
+margin: 10px;
+
+  }
+  
+   @keyframes mymove{from{background-color:red;top: 150px;left: 100px;}to
+  {background-color: green;left: 200px;top: 50px;}
+  }
+  
+  .G1{animation-timing-function: ease;}
+  .G2{animation-timing-function:linear;}
+  .G3{animation-timing-function:ease-in-out;}
+  .G4{animation-timing-function:ease-out;}
+  .G5{animation-timing-function: linear;}
+  .G6{animation-timing-function:ease;}
+
+</style>
+<body>
+  <div class="G1"><h1>G</h1></div>
+  <div class="G2"><h1>O</h1></div>
+  <div class="G3"><h1>O</h1></div>
+  <div class="G4"><h1>G</h1></div>
+  <div class="G5"><h1>L</h1></div>
+  <div class="G6"><h1>E</h1></div>
+  
+  
+</body>
+</html>
